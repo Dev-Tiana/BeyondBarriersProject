@@ -22,7 +22,7 @@ justify-content: center;
   gap: 0px;
   opacity: 0px;
   display: flex;
-  gap: 20px;
+  gap: 1,25rem;
   
 
   width: 100%;
@@ -38,48 +38,48 @@ justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 64px 10px 20px 10px;
-  gap: 63px;
+  gap: 3.9rem;
 }
 .frstLink-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
-  margin-top: 39px;
-  gap: 35px;
+  margin-top: 2.4rem;
+  gap: 2.18rem;
 }
 .scndLink-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 35px;
+  gap: 2.18rem;
   white-space: nowrap;
 }
 
 .logo {
-  width: 225px;
-  height: 44px;
+  width: 14rem;
+  height: 2.75rem;
 
 }
 .logo a {
   color:#F8FCFF;
-  font-size: 30px;
+  font-size: 1.87rem;
   font-weight: 700;
-  line-height: 44.99px;
+  line-height: 2.8rem;
   text-align: left;
   text-decoration: none;
 }
 .icon1 {
-  width: 26.72px;
-  height: 26.72px;
-  margin-right: 13.28px;
+  width: 1.67rem;
+  height: 1.67rem;
+  margin-right: 0.8rem;
 }
 .aclinic span {
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 35.99px;
+  line-height: 2.2rem;
   text-align: left;
   text-decoration: none;
 }
@@ -87,16 +87,16 @@ justify-content: center;
   color: #F8FCFF; 
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 1.25rem,;
 }
 .dclinic {
-  height: 36px;
+  height: 2.25rem;
 } 
 .dclinic span {
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 200;
-  line-height: 36px;
+  line-height: 2.25rem;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -106,27 +106,27 @@ justify-content: center;
   color: #F8FCFF; 
   align-items: center;
   display: flex;
-  padding-left: 20px;
+  padding-left: 1.25rem;
   white-space: nowrap;
 }
 .icon2 {
-width: 12px;
-height: 12px;
-margin-right: 24px;
+width: 0.75rem;
+height: 0.75rem;
+margin-right: 1.5rem;
 align-self: center;
 }
 
 .recom span {
  font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 35.99px;
+  line-height: 2.24rem;
 }
 .recom {
   color: #F8FCFF;
   display: flex;
   justify-content: center;
-  padding-left: 10px;
+  padding-left: 0.6rem;
 }
 .icon3 {
   width: 30px;
@@ -292,6 +292,11 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 .pf-name {

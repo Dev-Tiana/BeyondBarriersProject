@@ -16,7 +16,7 @@ nav {
     padding: 30px 5%;
     white-space: nowrap;
 }
-ul {
+.nav-list {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -43,13 +43,33 @@ ul {
     color: #F8FCFF;
   
 }
-li > a {
+.nav-link {
+    position: relative;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #F8FCFF;
     text-decoration: none;
 }
+.nav-link::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #F8FCFF;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+.nav-link:focus::after {
+  width: 100%;
+}
+
+
+
 .hero-section {
   background-image: url("./images/gettyimages-1425453868-612x612-removebg-preview 1.png");
   background-repeat: no-repeat;
